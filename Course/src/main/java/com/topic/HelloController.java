@@ -17,4 +17,10 @@ public class HelloController {
 		return "success";
 	}
 	
+	
+	@GetMapping("/")
+	public String Home() {
+		return "login";
+	}
+	
 }
